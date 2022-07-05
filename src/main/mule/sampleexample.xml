@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns="http://www.mulesoft.org/schema/mule/core"
+	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+	<flow name="sampleexampleFlow" doc:id="1e5e83df-ea02-4f17-9242-40d44c0017fc" >
+		<http:listener doc:name="Listener" doc:id="f476148d-3bc5-4e77-9fbb-68d1050eb95d" />
+		<logger level="INFO" doc:name="Logger" doc:id="ca359fb2-edf5-485d-96b4-01191297ce87" />
+	</flow>
+</mule>
